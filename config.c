@@ -4,16 +4,19 @@
 #include "util.h"
 
 Block blocks[] = {
-    {"sb-mail",    600,  1 },
-    {"sb-music",   0,    2 },
-    {"sb-disk",    1800, 3 },
-    {"sb-memory",  10,   4 },
-    {"sb-loadavg", 5,    5 },
-    {"sb-mic",     0,    6 },
-    {"sb-record",  0,    7 },
-    {"sb-volume",  0,    8 },
-    {"sb-battery", 5,    9 },
-    {"sb-date",    1,    10},
+	{"sb-timer",		0,		4},
+	{"sb-recording",	0,		5},
+	{"sb-internet",		5,		3},
+	{"sb-battery",		2,		0},
+	{"sb-date",		1,		0},
+	{"echo ';'",		0,		0},
+	{"sb-brightness",	0,		6},
+	{"sb-volume",  		0,		1},
+	{"sb-xkeyboard",	0,		7},
+	{"echo ';'",		0,		0},
+	{"sb-disk",		3600,		2},
+	{"sb-cpu",		2,		0},
+	{"sb-ram",		4,		0},
 };
 
 const unsigned short blockCount = LEN(blocks);
